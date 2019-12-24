@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///配置key以及secret[QQ没有secret]
 +(void)ty_setupPlatForm:(TYSocialPlatForm) platform Key:(NSString *)key andSecret:(nullable NSString *)secret;
 ///接收系统回调
-+(BOOL)ty_handleOpenUrl:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
++(BOOL)ty_handleOpenURL:(NSURL *)url options:(NSDictionary *)options;
 
 ///三方登录
 +(void)ty_loginPlatForm:(TYSocialPlatForm)platform inViewController:(nullable UIViewController *)vc withResult:(void(^)(NSError *_Nullable error,TYUserInfo *info,TYSocialPlatForm plat))callback;

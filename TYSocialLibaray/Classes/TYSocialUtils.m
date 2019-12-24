@@ -31,8 +31,8 @@
     [[UMSocialManager defaultManager] setPlaform:[self getUMPlatform:platform] appKey:key appSecret:secret redirectURL:@"http://mobile.umeng.com/social"];
 }
 ///接收系统回调
-+(BOOL)ty_handleOpenUrl:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
-    return [[UMSocialManager defaultManager] handleOpenURL:url sourceApplication:sourceApplication annotation:annotation];
++(BOOL)ty_handleOpenURL:(NSURL *)url options:(NSDictionary *)options{
+    return [[UMSocialManager defaultManager] handleOpenURL:url options:options];
 }
 
 #pragma mark - 三方登录

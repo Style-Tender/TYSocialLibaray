@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYSocialLibaray'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '基于友盟的社会化分享、登录'
 
 # This description is used to generate tags and improve search results.
