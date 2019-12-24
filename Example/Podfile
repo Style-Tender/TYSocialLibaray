@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TYSocialLibaray_Example' do
+  pod 'TYSocialLibaray', :path => '../'
+
+  target 'TYSocialLibaray_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
