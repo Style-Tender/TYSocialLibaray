@@ -1,0 +1,6 @@
+framework module Pods_TYSocialLibaray_Example {
+  umbrella header "Pods-TYSocialLibaray_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

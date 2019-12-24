@@ -1,0 +1,6 @@
+framework module TYSocialLibaray {
+  umbrella header "TYSocialLibaray-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "TYViewController.h"
+#import <TYSocialUtils.h>
 
 @interface TYViewController ()
 

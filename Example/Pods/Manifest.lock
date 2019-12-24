@@ -1,0 +1,68 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TYSocialLibaray (0.1.0):
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare/Social/Facebook
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+    - UMCShare/Social/Twitter
+    - UMCShare/UI
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.6):
+    - UMCCommon
+  - UMCShare/Social/Facebook (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedQQ (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Twitter (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/UI (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TYSocialLibaray (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare
+
+EXTERNAL SOURCES:
+  TYSocialLibaray:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TYSocialLibaray: b01527318b3d3dc98d2d8ffe35ea6aebc900f0bf
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: e0cef55c0fd6051254c8cda1d0630eb578b27bad
+
+PODFILE CHECKSUM: be09f3153e0f2f05f3da7b30e0c4538fbb08cc27
+
+COCOAPODS: 1.8.4

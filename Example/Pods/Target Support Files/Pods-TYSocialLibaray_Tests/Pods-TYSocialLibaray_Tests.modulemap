@@ -1,0 +1,6 @@
+module Pods_TYSocialLibaray_Tests {
+  umbrella header "Pods-TYSocialLibaray_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

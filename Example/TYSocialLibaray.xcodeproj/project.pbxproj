@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1921E55D62687AA9ADFED437 /* libPods-TYSocialLibaray_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AC5B20856F8DE90EC524F4 /* libPods-TYSocialLibaray_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CE5C1B894FAAAAF5B6C4650B /* Pods_TYSocialLibaray_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E008229529C5550DDAD5928E /* Pods_TYSocialLibaray_Example.framework */; };
-		FA7DF96F4A05360B5A84C3B8 /* Pods_TYSocialLibaray_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2660CD4162ABC90216E503 /* Pods_TYSocialLibaray_Tests.framework */; };
+		AE147508049FD9E487123340 /* libPods-TYSocialLibaray_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA30C4D4F9F37BB54C20052 /* libPods-TYSocialLibaray_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E99B32D06BEEF580F52D1D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		327C14DA92CF5F86302FC285 /* TYSocialLibaray.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYSocialLibaray.podspec; path = ../TYSocialLibaray.podspec; sourceTree = "<group>"; };
+		2E99B32D06BEEF580F52D1D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		327C14DA92CF5F86302FC285 /* TYSocialLibaray.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYSocialLibaray.podspec; path = ../TYSocialLibaray.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F2730B15F80DDC020623438 /* Pods-TYSocialLibaray_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSocialLibaray_Example.release.xcconfig"; path = "Target Support Files/Pods-TYSocialLibaray_Example/Pods-TYSocialLibaray_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4759B60658F98B718DE12276 /* Pods-TYSocialLibaray_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSocialLibaray_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYSocialLibaray_Tests/Pods-TYSocialLibaray_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TYSocialLibaray_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYSocialLibaray_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73AC5B20856F8DE90EC524F4 /* libPods-TYSocialLibaray_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYSocialLibaray_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B2660CD4162ABC90216E503 /* Pods_TYSocialLibaray_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYSocialLibaray_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0DB4D826B3300018EBAC69 /* Pods-TYSocialLibaray_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSocialLibaray_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYSocialLibaray_Example/Pods-TYSocialLibaray_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		92397E9450C8C230284440F7 /* Pods-TYSocialLibaray_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSocialLibaray_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYSocialLibaray_Tests/Pods-TYSocialLibaray_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A8C7963B54DD16AB88ADAC21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E008229529C5550DDAD5928E /* Pods_TYSocialLibaray_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYSocialLibaray_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA30C4D4F9F37BB54C20052 /* libPods-TYSocialLibaray_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYSocialLibaray_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C7963B54DD16AB88ADAC21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				CE5C1B894FAAAAF5B6C4650B /* Pods_TYSocialLibaray_Example.framework in Frameworks */,
+				AE147508049FD9E487123340 /* libPods-TYSocialLibaray_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FA7DF96F4A05360B5A84C3B8 /* Pods_TYSocialLibaray_Tests.framework in Frameworks */,
+				1921E55D62687AA9ADFED437 /* libPods-TYSocialLibaray_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,6 @@
 				4759B60658F98B718DE12276 /* Pods-TYSocialLibaray_Tests.debug.xcconfig */,
 				92397E9450C8C230284440F7 /* Pods-TYSocialLibaray_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E008229529C5550DDAD5928E /* Pods_TYSocialLibaray_Example.framework */,
-				8B2660CD4162ABC90216E503 /* Pods_TYSocialLibaray_Tests.framework */,
+				9AA30C4D4F9F37BB54C20052 /* libPods-TYSocialLibaray_Example.a */,
+				73AC5B20856F8DE90EC524F4 /* libPods-TYSocialLibaray_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2B51BEE259C7499203DEBAE7 /* [CP] Embed Pods Frameworks */,
+				C51F6B1F6EC814F42FB2E750 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,7 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				79861998630761D9B8775F6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,42 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2B51BEE259C7499203DEBAE7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TYSocialLibaray_Example/Pods-TYSocialLibaray_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TYSocialLibaray/TYSocialLibaray.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYSocialLibaray.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYSocialLibaray_Example/Pods-TYSocialLibaray_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79861998630761D9B8775F6C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TYSocialLibaray_Tests/Pods-TYSocialLibaray_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYSocialLibaray_Tests/Pods-TYSocialLibaray_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8EA0AB28790D18F8F70AACB0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,6 +337,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51F6B1F6EC814F42FB2E750 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYSocialLibaray_Example/Pods-TYSocialLibaray_Example-resources.sh",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterKitResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYSocialLibaray_Example/Pods-TYSocialLibaray_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -468,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

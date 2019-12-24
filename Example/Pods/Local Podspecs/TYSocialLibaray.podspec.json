@@ -1,0 +1,51 @@
+{
+  "name": "TYSocialLibaray",
+  "version": "0.1.0",
+  "summary": "基于友盟的社会化分享、登录",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Style-Tender/TYSocialLibaray",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ty": "785072254@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Style-Tender/TYSocialLibaray.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "TYSocialLibaray/Classes/**/*",
+  "dependencies": {
+    "UMCCommon": [
+
+    ],
+    "UMCSecurityPlugins": [
+
+    ],
+    "UMCAnalytics": [
+
+    ],
+    "UMCShare/UI": [
+
+    ],
+    "UMCShare/Social/ReducedWeChat": [
+
+    ],
+    "UMCShare/Social/ReducedQQ": [
+
+    ],
+    "UMCShare/Social/ReducedSina": [
+
+    ],
+    "UMCShare/Social/Facebook": [
+
+    ],
+    "UMCShare/Social/Twitter": [
+
+    ]
+  }
+}
